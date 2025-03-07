@@ -3,7 +3,8 @@ pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
 import {Counter} from "../src/Counter.sol";
-import {StdInvariant} from "forge-std/StdInvariant.sol";    
+import {StdInvariant} from "forge-std/StdInvariant.sol";
+
 contract CounterTest is StdInvariant, Test {
     Counter public counter;
 
